@@ -11,13 +11,52 @@ public class OverallStandings extends javax.swing.JFrame {
         initComponents();
     }
 
-    private boolean checkEmpty() {
-        return !(jtxtTeam1.getText().isEmpty() || jtxtTeam2.getText().isEmpty() || jtxtTeam3.getText().isEmpty()
+    private boolean isEmpty() {
+        return (jtxtTeam1.getText().isEmpty() || jtxtTeam2.getText().isEmpty() || jtxtTeam3.getText().isEmpty()
                 || jtxtTeam4.getText().isEmpty() || jtxtTeam5.getText().isEmpty() || jtxtTeam6.getText().isEmpty()
                 || jtxtTeam7.getText().isEmpty() || jtxtTeam8.getText().isEmpty() || jtxtTeam9.getText().isEmpty()
                 || jtxtTeam10.getText().isEmpty() || jtxtTeam11.getText().isEmpty() || jtxtTeam12.getText().isEmpty()
                 || jtxtTeam13.getText().isEmpty() || jtxtTeam14.getText().isEmpty() || jtxtTeam15.getText().isEmpty()
                 || jtxtTeam16.getText().isEmpty());
+    }
+
+    private String[] setGroup1() {
+        String[] group1 = new String[8];
+        
+        group1[0] = jtxtTeam1.getText();
+        group1[1] = jtxtTeam2.getText();
+        group1[2] = jtxtTeam3.getText();
+        group1[3] = jtxtTeam4.getText();
+        group1[4] = jtxtTeam5.getText();
+        group1[5] = jtxtTeam6.getText();
+        group1[6] = jtxtTeam7.getText();
+        group1[7] = jtxtTeam8.getText();
+
+        return group1;
+    }
+
+    private String[] setGroup2() {
+        String[] group2 = new String[8];
+        
+        group2[0] = jtxtTeam9.getText();
+        group2[1] = jtxtTeam10.getText();
+        group2[2] = jtxtTeam11.getText();
+        group2[3] = jtxtTeam12.getText();
+        group2[4] = jtxtTeam13.getText();
+        group2[5] = jtxtTeam14.getText();
+        group2[6] = jtxtTeam15.getText();
+        group2[7] = jtxtTeam16.getText();
+
+        return group2;
+    }
+    
+    private String[] shuffleArray(String[] array) {
+        List<String> list = Arrays.asList(array);
+        Collections.shuffle(list);
+        
+        list.toArray(array);
+        
+        return array;
     }
 
     @SuppressWarnings("unchecked")
@@ -70,37 +109,53 @@ public class OverallStandings extends javax.swing.JFrame {
         jlbStanding.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlbStanding.setText("Classificação Geral");
         jPanel1.add(jlbStanding, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 210, 30));
+
+        jtxtTeam16.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam16, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 370, 170, 20));
 
-        jtxtTeam1.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam1.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 170, 20));
 
-        jtxtTeam2.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam2.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 170, 20));
 
-        jtxtTeam3.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam3.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 170, 20));
 
-        jtxtTeam4.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam4.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, 170, 20));
 
-        jtxtTeam5.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam5.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, 170, 20));
 
-        jtxtTeam6.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam6.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 170, 20));
 
-        jtxtTeam7.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam7.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 330, 170, 20));
 
-        jtxtTeam8.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
+        jtxtTeam8.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 370, 170, 20));
+
+        jtxtTeam9.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, 170, 20));
+
+        jtxtTeam10.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam10, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 170, 20));
+
+        jtxtTeam11.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam11, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, 170, 20));
+
+        jtxtTeam12.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, 170, 20));
+
+        jtxtTeam13.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam13, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 250, 170, 20));
+
+        jtxtTeam14.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam14, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 290, 170, 20));
+
+        jtxtTeam15.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
         jPanel1.add(jtxtTeam15, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 170, 20));
 
         jlbPosition1.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
@@ -183,39 +238,15 @@ public class OverallStandings extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbtMatchesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtMatchesActionPerformed
-        if (checkEmpty()) {
-            String[] group1 = new String[8];
-            String[] group2 = new String[8];
-
-            group1[0] = jtxtTeam1.getText();
-            group1[1] = jtxtTeam2.getText();
-            group1[2] = jtxtTeam3.getText();
-            group1[3] = jtxtTeam4.getText();
-            group1[4] = jtxtTeam5.getText();
-            group1[5] = jtxtTeam6.getText();
-            group1[6] = jtxtTeam7.getText();
-            group1[7] = jtxtTeam8.getText();
-
-            group2[0] = jtxtTeam9.getText();
-            group2[1] = jtxtTeam10.getText();
-            group2[2] = jtxtTeam11.getText();
-            group2[3] = jtxtTeam12.getText();
-            group2[4] = jtxtTeam13.getText();
-            group2[5] = jtxtTeam14.getText();
-            group2[6] = jtxtTeam15.getText();
-            group2[7] = jtxtTeam16.getText();
-
-            List<String> group1_list = Arrays.asList(group1);
-            List<String> group2_list = Arrays.asList(group2);
-
-            Collections.shuffle(group1_list);
-            Collections.shuffle(group2_list);
-
-            group1_list.toArray(group1);
-            group2_list.toArray(group2);
+        if (!isEmpty()) {
+            String[] group1 = setGroup1();
+            String[] group2 = setGroup2();
             
+            group1 = shuffleArray(group1);
+            group2 = shuffleArray(group2);
+
             new Matches(group1, group2).setVisible(true);
-            
+
         } else {
             JOptionPane.showMessageDialog(this, "Preencha a classificação geral!");
         }
