@@ -81,23 +81,9 @@ public class OverallStandings extends javax.swing.JFrame {
         jtxtTeam13 = new javax.swing.JTextField();
         jtxtTeam14 = new javax.swing.JTextField();
         jtxtTeam15 = new javax.swing.JTextField();
-        jlbPosition1 = new javax.swing.JLabel();
-        jlbPosition2 = new javax.swing.JLabel();
-        jlbPosition3 = new javax.swing.JLabel();
-        jlbPosition4 = new javax.swing.JLabel();
-        jlbPosition5 = new javax.swing.JLabel();
-        jlbPosition6 = new javax.swing.JLabel();
-        jlbPosition7 = new javax.swing.JLabel();
-        jlbPosition8 = new javax.swing.JLabel();
-        jlbPosition9 = new javax.swing.JLabel();
-        jlbPosition10 = new javax.swing.JLabel();
-        jlbPosition11 = new javax.swing.JLabel();
-        jlbPosition12 = new javax.swing.JLabel();
-        jlbPosition13 = new javax.swing.JLabel();
-        jlbPosition14 = new javax.swing.JLabel();
-        jlbPosition15 = new javax.swing.JLabel();
-        jlbPosition16 = new javax.swing.JLabel();
         jbtMatches = new javax.swing.JButton();
+        jlbGroup1 = new javax.swing.JLabel();
+        jlbGroup2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -105,122 +91,58 @@ public class OverallStandings extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jlbStanding.setFont(new java.awt.Font("Cambria Math", 1, 17)); // NOI18N
+        jlbStanding.setFont(new java.awt.Font("Cambria Math", 1, 20)); // NOI18N
         jlbStanding.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlbStanding.setText("Classificação Geral");
-        jPanel1.add(jlbStanding, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 210, 30));
+        jPanel1.add(jlbStanding, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 210, 30));
 
         jtxtTeam16.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam16, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 370, 170, 20));
+        jPanel1.add(jtxtTeam16, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 390, 170, 20));
 
         jtxtTeam1.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 170, 20));
+        jPanel1.add(jtxtTeam1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 170, 20));
 
         jtxtTeam2.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 170, 20));
+        jPanel1.add(jtxtTeam2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, 170, 20));
 
         jtxtTeam3.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 170, 20));
+        jPanel1.add(jtxtTeam3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, 170, 20));
 
         jtxtTeam4.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, 170, 20));
+        jPanel1.add(jtxtTeam4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 170, 20));
 
         jtxtTeam5.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, 170, 20));
+        jPanel1.add(jtxtTeam5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 270, 170, 20));
 
         jtxtTeam6.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 170, 20));
+        jPanel1.add(jtxtTeam6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, 170, 20));
 
         jtxtTeam7.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 330, 170, 20));
+        jPanel1.add(jtxtTeam7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, 170, 20));
 
         jtxtTeam8.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 370, 170, 20));
+        jPanel1.add(jtxtTeam8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 170, 20));
 
         jtxtTeam9.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, 170, 20));
+        jPanel1.add(jtxtTeam9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 170, 20));
 
         jtxtTeam10.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam10, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 170, 20));
+        jPanel1.add(jtxtTeam10, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, 170, 20));
 
         jtxtTeam11.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam11, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, 170, 20));
+        jPanel1.add(jtxtTeam11, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 190, 170, 20));
 
         jtxtTeam12.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, 170, 20));
+        jPanel1.add(jtxtTeam12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 230, 170, 20));
 
         jtxtTeam13.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam13, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 250, 170, 20));
+        jPanel1.add(jtxtTeam13, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 170, 20));
 
         jtxtTeam14.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam14, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 290, 170, 20));
+        jPanel1.add(jtxtTeam14, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 310, 170, 20));
 
         jtxtTeam15.setFont(new java.awt.Font("Cambria Math", 0, 17)); // NOI18N
-        jPanel1.add(jtxtTeam15, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 170, 20));
-
-        jlbPosition1.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition1.setText("1º");
-        jPanel1.add(jlbPosition1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
-
-        jlbPosition2.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition2.setText("2º");
-        jPanel1.add(jlbPosition2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
-
-        jlbPosition3.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition3.setText("3º");
-        jPanel1.add(jlbPosition3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, -1, -1));
-
-        jlbPosition4.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition4.setText("4º");
-        jPanel1.add(jlbPosition4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, -1));
-
-        jlbPosition5.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition5.setText("5º");
-        jPanel1.add(jlbPosition5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
-
-        jlbPosition6.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition6.setText("6º");
-        jPanel1.add(jlbPosition6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
-
-        jlbPosition7.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition7.setText("7º");
-        jPanel1.add(jlbPosition7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, -1, -1));
-
-        jlbPosition8.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition8.setText("8º");
-        jPanel1.add(jlbPosition8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, -1, -1));
-
-        jlbPosition9.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition9.setText("9º");
-        jPanel1.add(jlbPosition9, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, -1, -1));
-
-        jlbPosition10.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition10.setText("10º");
-        jPanel1.add(jlbPosition10, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 130, -1, -1));
-
-        jlbPosition11.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition11.setText("11º");
-        jPanel1.add(jlbPosition11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 170, -1, -1));
-
-        jlbPosition12.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition12.setText("12º");
-        jPanel1.add(jlbPosition12, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, -1, -1));
-
-        jlbPosition13.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition13.setText("13º");
-        jPanel1.add(jlbPosition13, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, -1));
-
-        jlbPosition14.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition14.setText("14º");
-        jPanel1.add(jlbPosition14, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 290, -1, -1));
-
-        jlbPosition15.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition15.setText("15º");
-        jPanel1.add(jlbPosition15, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 330, -1, -1));
-
-        jlbPosition16.setFont(new java.awt.Font("Cambria Math", 1, 15)); // NOI18N
-        jlbPosition16.setText("16º");
-        jPanel1.add(jlbPosition16, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, -1, -1));
+        jPanel1.add(jtxtTeam15, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, 170, 20));
 
         jbtMatches.setFont(new java.awt.Font("Cambria Math", 0, 14)); // NOI18N
         jbtMatches.setText("Confrontos");
@@ -229,7 +151,17 @@ public class OverallStandings extends javax.swing.JFrame {
                 jbtMatchesActionPerformed(evt);
             }
         });
-        jPanel1.add(jbtMatches, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, -1, -1));
+        jPanel1.add(jbtMatches, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 440, -1, -1));
+
+        jlbGroup1.setFont(new java.awt.Font("Cambria Math", 1, 17)); // NOI18N
+        jlbGroup1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jlbGroup1.setText("Pote 1");
+        jPanel1.add(jlbGroup1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 210, 30));
+
+        jlbGroup2.setFont(new java.awt.Font("Cambria Math", 1, 17)); // NOI18N
+        jlbGroup2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jlbGroup2.setText("Pote 2");
+        jPanel1.add(jlbGroup2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 210, 30));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 590, 480));
 
@@ -265,22 +197,8 @@ public class OverallStandings extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton jbtMatches;
-    private javax.swing.JLabel jlbPosition1;
-    private javax.swing.JLabel jlbPosition10;
-    private javax.swing.JLabel jlbPosition11;
-    private javax.swing.JLabel jlbPosition12;
-    private javax.swing.JLabel jlbPosition13;
-    private javax.swing.JLabel jlbPosition14;
-    private javax.swing.JLabel jlbPosition15;
-    private javax.swing.JLabel jlbPosition16;
-    private javax.swing.JLabel jlbPosition2;
-    private javax.swing.JLabel jlbPosition3;
-    private javax.swing.JLabel jlbPosition4;
-    private javax.swing.JLabel jlbPosition5;
-    private javax.swing.JLabel jlbPosition6;
-    private javax.swing.JLabel jlbPosition7;
-    private javax.swing.JLabel jlbPosition8;
-    private javax.swing.JLabel jlbPosition9;
+    private javax.swing.JLabel jlbGroup1;
+    private javax.swing.JLabel jlbGroup2;
     private javax.swing.JLabel jlbStanding;
     private javax.swing.JTextField jtxtTeam1;
     private javax.swing.JTextField jtxtTeam10;
