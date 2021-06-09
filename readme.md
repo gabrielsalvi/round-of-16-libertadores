@@ -9,7 +9,7 @@
 
 This software generates matches of the round of 16. The system is based on the format of Libertadores da América, where the contenders of the **pot A** play against the contenders of the **pot B**.
 
-### Process in real-life:
+### Process in real life:
 
 The top two from each of the eight groups advance to the round of 16. For the draw, the teams are divided in pot A and B, being the key leaders in the first pot and the vices in the second pot. Teams ranked first, decide the duel at home.
 
@@ -17,17 +17,17 @@ The top two from each of the eight groups advance to the round of 16. For the dr
 
 To simulate the real-life process, both groups are shuffled and the equivalent positions of each shuffled group will play against each other. To exemplify: 
 
-Initially the equips will be divided into two pots.
+* Initially the equips will be divided into two pots.
 
-**pot A:** Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo and Atlético-MG. <br><br>
-**pot B:** Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez and Cerro Porteño. </tab>
+		pot A: Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo and Atlético-MG.
+		pot B: Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez and Cerro Porteño.
 
-Then the software will suffle the groups, altering the previous order of the teams.
+* Then the software will suffle the groups, altering the previous order of the teams.
 
-**pot A:** Atlético-MG, Barcelona SC, Internacional, Flamengo, Palmeiras, Racing, Argentinos Jr, Fluminense. <br><br>
-**pot B:** Universidad Católica, Defensa y Justicia, Cerro Porteño, Boca Juniors, River Plate, Olimpia, São Paulo, Vélez.
+		pot A: Atlético-MG, Barcelona SC, Internacional, Flamengo, Palmeiras, Racing, Argentinos Jr, Fluminense. <br><br>
+		pot B: Universidad Católica, Defensa y Justicia, Cerro Porteño, Boca Juniors, River Plate, Olimpia, São Paulo, Vélez.
 
-Finally the software will match-up the teams. The first one of the pot A is going to play against the first one of the pot B. The second will play against the second and so on. In that case, it'll be like this: <br><br>
+* Then the software will match-up the teams. The first one of the pot A is going to play against the first one of the pot B. The second will play against the second and so on. In that case, it'll be like this: <br><br>
 
 <div style="margin: 0 auto;
 width: 62%;"> <pre>
@@ -35,8 +35,8 @@ width: 62%;"> <pre>
 	Barcelona SC	  x     Defensa y Justicia
 	Internacional	  x     Cerro Porteño
 	Flamengo 	  x     Boca Juniors
-	Palmeiras 	  x     River Plate
-	Racing 		  x     Olimpia
+	Palmeiras  	  x     River Plate
+	Racing 	 	  x     Olimpia
 	Argentinos Jr     x     São Paulo
-	Fluminense 	  x     Vélez </pre>
-</div>
+	Fluminense  	  x     Vélez
+</pre></div>
