@@ -19,8 +19,8 @@ To simulate the real-life process, both groups are shuffled and the equivalent p
 
 * Initially the equips will be divided into two pots.
 
-		pot A: Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo and Atlético-MG.
-		pot B: Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez and Cerro Porteño.
+		pot A: Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo, Atlético-MG.
+		pot B: Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez, Cerro Porteño.
 
 * Then the software will suffle the groups, altering the previous order of the teams.
 
@@ -29,11 +29,11 @@ To simulate the real-life process, both groups are shuffled and the equivalent p
 
 * Then the software will match-up the teams. The first one of the pot A is going to play against the first one of the pot B. The second will play against the second and so on. In that case, it'll be like this: <br><br>
 
-								Atlético-MG	  x     Universidad Católica
-								Barcelona SC	  x     Defensa y Justicia
-								Internacional	  x     Cerro Porteño
-								Flamengo 	  x     Boca Juniors
-								Palmeiras  	  x     River Plate
-								Racing 	 	  x     Olimpia
-								Argentinos Jr     x     São Paulo
-								Fluminense  	  x     Vélez
+							Atlético-MG	  x     Universidad Católica
+							Barcelona SC	  x     Defensa y Justicia
+							Internacional	  x     Cerro Porteño
+							Flamengo 	  x     Boca Juniors
+							Palmeiras  	  x     River Plate
+							Racing 	 	  x     Olimpia
+							Argentinos Jr     x     São Paulo
+							Fluminense  	  x     Vélez
