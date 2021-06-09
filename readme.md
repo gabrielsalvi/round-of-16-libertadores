@@ -1,21 +1,42 @@
-# Soccer Tournament <br><br>
+# Soccer Tournament <br>
 
-**Group 1:** It's composed by the eight winners of the group stage.
-**Group 2:** It's composed by the eight runners-up of the group stage.
+### Definitions:
 
-This software generates matches of the round of 16. The system is based on the format of Copa do Brasil and Libertadores da América, where the contenders of the **group 1** play against the contenders of the **group 2**.
+* **Pot A:** It's composed by the eight winners of the group stage.<br>
+* **Pot B:** It's composed by the eight runners-up of the group stage. <br>
 
-The official matches are decided by a "draw", where a team of group 1 is will play against a team of group 2.
- 
-So to simulate the process in this software, both of the groups are shuffled and the first ones of each suffled group will play each other. To examplify:
+### Description:
 
-Initially the **group 1** is composed by Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo and Atlético-MG. The **group 2** is composed by Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez and Cerro Porteño. Then, the software will suffle the groups, generating something like this:
+This software generates matches of the round of 16. The system is based on the format of Libertadores da América, where the contenders of the **pot A** play against the contenders of the **pot B**.
 
-**group 1:** 
+### Process in real life:
 
+The top two from each of the eight groups advance to the round of 16. For the draw, the teams are divided in pot A and B, being the key leaders in the first pot and the vices in the second pot. Teams ranked first, decide the duel at home.
 
+### How does the software work?
 
-and then will match-up the teams.
+To simulate the real life process, in this software both of the groups are shuffled and the equivalents positions of each suffled group will play each other. To examplify:
 
+Initially the equips will be divided into two pots.
 
+**pot A:** Palmeiras, Internacional, Barcelona SC, Fluminense, Racing, Argentinos Jr, Flamengo and Atlético-MG. <br><br>
+**pot B:** Defensa y Justicia, Olimpia, Boca Juniors, River Plate, São Paulo, Universidad Católica, Vélez and Cerro Porteño. </tab>
 
+Then the software will suffle the groups, altering the previous order of the teams.
+
+**pot A:** Atlético-MG, Barcelona SC, Internacional, Flamengo, Palmeiras, Racing, Argentinos Jr, Fluminense. <br><br>
+**pot B:** Universidad Católica, Defensa y Justicia, Cerro Porteño, Boca Juniors, River Plate, Olimpia, São Paulo, Vélez.
+
+Then the software will match-up the teams. The first one of the pot A is going to play against the first one of the pot B. The second will play against the second and so on. In that case, it'll be like this: <br><br>
+
+<div style="margin: 0 auto;
+width: 62%;"> <pre>
+	Atlético-MG	      x     Universidad Católica
+	Barcelona SC	  x     Defensa y Justicia
+	Internacional	  x     Cerro Porteño
+	Flamengo 		  x     Boca Juniors
+	Palmeiras 	  	  x     River Plate
+	Racing 		  	  x     Olimpia
+	Argentinos Jr     x     São Paulo
+	Fluminense 	  	  x     Vélez </pre>
+</div>
