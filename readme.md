@@ -1,4 +1,4 @@
-# Soccer Tournament <br>
+# Conmebol Libertadores Round of 16 Draw<br>
 
 ### Definitions:
 
@@ -7,7 +7,7 @@
 
 ### Description:
 
-This software generates matches of the round of 16. The system is based on the format of Libertadores da América, where the contenders of the **pot A** play against the contenders of the **pot B**.
+This software generates the matches of the round of 16. The system is based on the format of Libertadores da América, where the contenders of the **pot A** play against the contenders of the **pot B**.
 
 ### Process in real life:
 
